@@ -28,4 +28,16 @@
 
 .main-text_white {
   color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link:visited {
+  color: #ffffff;
 }/*# sourceMappingURL=text.css.map */
