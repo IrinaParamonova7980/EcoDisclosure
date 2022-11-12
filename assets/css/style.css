@@ -32,4 +32,19 @@
   font-size: 13px;
   line-height: 20px;
   color: #ffffff;
+}
+
+/* Кнопка */
+.submit {
+  width: 123px;
+  padding: 10px;
+  background: #497557;
+  border-radius: 6px;
+  border: #497557;
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

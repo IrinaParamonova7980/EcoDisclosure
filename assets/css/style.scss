@@ -51,3 +51,19 @@ $large-desktop: 1560px;
     line-height: 20px;
     color: $white;
   }
+
+  /* Кнопка */
+  .submit {
+    width: 123px;
+    padding: 10px;
+    background: $light-green;
+    border-radius: 6px;
+    border: $light-green;
+  
+    font-family: $second-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: $white;
+  }
