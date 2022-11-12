@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* Форма запроса */
+.form {
+  display: flex;
+}
+
+/* Поле ввода */
+.input-field {
+  width: 280px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 6px 0px 0px 6px;
+  border: #ffffff;
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+}
+
+/* Кнопка поля ввода */
+.button {
+  width: 123px;
+  padding: 20px;
+  background: #497557;
+  border-radius: 0px 6px 6px 0px;
+  border: #497557;
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
