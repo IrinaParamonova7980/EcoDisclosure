@@ -1,0 +1,65 @@
+.scanning-algorithm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .scanning-algorithm {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1280px) {
+  .scanning-algorithm {
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.scanning-algorithm-desciption {
+  align-self: center;
+  text-align: center;
+  padding: 10px 5px;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .scanning-algorithm-desciption {
+    align-self: center;
+    text-align: center;
+    padding: 10px 50px;
+  }
+}
+@media (min-width: 1280px) {
+  .scanning-algorithm-desciption {
+    justify-self: flex-start;
+    text-align: start;
+    width: 45%;
+  }
+}
+
+.scanning-algorithm-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+  padding: 10px;
+}
+@media (min-width: 1280px) {
+  .scanning-algorithm-image-container {
+    align-self: flex-end;
+    width: 50%;
+    padding: 20px;
+  }
+}
+
+.scanning-algorithm-image-container__image {
+  max-width: 100%;
+  width: 100%;
+}/*# sourceMappingURL=scanning_alghoritm.css.map */

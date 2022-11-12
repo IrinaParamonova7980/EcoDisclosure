@@ -1,0 +1,65 @@
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+}
+
+.what-we-do-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+    height: 570px;
+    
+    background-image: url(/assets/images/block_2_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media(min-width: $desktop){
+        justify-content: flex-start;
+    }
+}
+
+.what-we-do-container-description{
+    text-align: center;
+    padding: 10px 5px;
+    
+    @media(min-width: $tablet){
+        padding: 50px 10%;
+    }
+
+    @media(min-width: $desktop){
+        padding: 50px 25%;
+    }
+}
+
+.what-we-do__video{
+    position: relative;
+    align-self: center;
+
+    width: 100%;
+    padding-top: 56.25%;
+    margin-top: 0px;
+    
+    @media(min-width: $desktop){
+       width: 50%;
+       padding-top: 28.125%;
+       margin-top: -15%;
+    }
+}
+
+.video{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
