@@ -1,12 +1,11 @@
- 
-$default-font:"Roboto", "Times New Roman", serif;
+$default-font: "Roboto", "Times New Roman", serif;
 $second-font: "Raleway", "Times New Roman", serif;
 
 $light-green: #497557;
-$green: #0C4A34;
-$dark-green: #02291C;
-$text-color-dark: #214E41;
-$text-color-light: #43806C;
+$green: #0c4a34;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
 $white: #ffffff;
 
 $mobile: 375px;
@@ -14,40 +13,102 @@ $tablet: 768px;
 $desktop: 1280px;
 $large-desktop: 1560px;
 
-
 /* Форма запроса */
 .form {
-    display: flex;
-  }
+  display: flex;
+}
 
-  /* Поле ввода */
+/* Поле ввода */
 .input-field {
-    width: 280px;
-    padding: 20px;
-    background: $white;
-    border-radius: 6px 0px 0px 6px;
-    border: $white;
-  
-    font-family: $second-font;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    color: #222222;
-  }
+  width: 280px;
+  padding: 20px;
+  background: $white;
+  border-radius: 6px 0px 0px 6px;
+  border: $white;
 
-   /* Кнопка поля ввода */
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+}
+
+/* Кнопка поля ввода */
 .button {
-    width: 123px;
-    padding: 20px;
-    background: $light-green;
-    border-radius: 0px 6px 6px 0px;
-    border: $light-green;
-  
-    font-family: $second-font;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 20px;
-    color: $white;
+  width: 123px;
+  padding: 20px;
+  background: $light-green;
+  border-radius: 0px 6px 6px 0px;
+  border: $light-green;
+
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: $white;
+}
+
+/* Кнопка */
+.submit {
+  width: 123px;
+  padding: 10px;
+  background: $light-green;
+  border-radius: 6px;
+  border: $light-green;
+
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: $white;
+}
+
+/* Навигация */
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px;
+
+  @media (min-width: $tablet) {
+    flex-direction: row;
+    margin: 10px 45px;
   }
+}
+
+.logo {
+  margin-top: 10px;
+
+  @media (min-width: $tablet) {
+    margin-right: auto;
+    margin-top: 0px;
+  }
+}
+
+.nav-item {
+  padding: 10px 10px;
+
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: $text-color-dark;
+
+  @media (min-width: $tablet) {
+    padding: 20px 50px;
+  }
+}
+
+.nav-form {
+  padding-top: 10px;
+
+  @media (min-width: $tablet) {
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+}
