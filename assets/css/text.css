@@ -1,0 +1,31 @@
+.main-title {
+  font-family: "Roboto", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 46px;
+  color: #214E41;
+}
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 36px;
+  }
+}
+
+.main-title_white {
+  color: #ffffff;
+}
+
+.main-text {
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+}
+
+.main-text_white {
+  color: #ffffff;
+}/*# sourceMappingURL=text.css.map */
