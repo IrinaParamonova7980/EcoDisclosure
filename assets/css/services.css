@@ -1,25 +1,26 @@
 html, body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", "Times New Roman", serif;
 }
 
 .services__main {
-  background: linear-gradient(to bottom, #006666 0%, #ffffff 69%);
+  background: linear-gradient(to bottom, #214E41 0%, #ffffff 69%);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
 }
 
-h1, .services {
+h2, .services {
   text-align: center;
 }
 
-h1 {
+h2 {
   margin: 50px 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 46px;
-  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-  color: rgb(229, 238, 235);
+  color:#ffffff;
 }
 
 .services {

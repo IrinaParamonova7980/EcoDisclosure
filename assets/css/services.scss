@@ -1,11 +1,12 @@
 $default-font:"Roboto", "Times New Roman", serif;
+$second-font: "Raleway", "Times New Roman", serif;
 
 $mobile: 375px;
 $tablet: 768px;
 $desktop: 1280px;
 $large-desktop: 1560px;
 
-.services__header,
+h2,
 .services {
     text-align: center;
 }
