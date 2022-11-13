@@ -1,0 +1,37 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+.services__header, .services {
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media (max-width: 375px), (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1280px) {
+  .services {
+    width: 80%;
+    gap: 5px;
+  }
+}
+
+.services__block {
+  width: calc(33.33% - 40px);
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 375px), (max-width: 768px) {
+  .services__text, .services__img {
+    width: 80vw;
+  }
+}/*# sourceMappingURL=services.css.map */
