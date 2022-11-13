@@ -1,40 +1,90 @@
-@charset "UTF-8";
-/* Форма запроса */
+/* Headings H1 */
+h1 {
+  font-family: "Roboto", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #214e41;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+
+/* Request Form */
 .form {
   display: flex;
 }
 
-/* Поле ввода */
+/* Input field */
 .input-field {
-  width: 280px;
-  padding: 20px;
+  width: 25vw;
+  padding: 7px;
   background: #ffffff;
   border-radius: 6px 0px 0px 6px;
   border: #ffffff;
   font-family: "Raleway", "Times New Roman", serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 5px;
+  line-height: 7px;
   color: #222222;
 }
+@media (min-width: 768px) and (max-width: 1280px) {
+  .input-field {
+    padding: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+@media (min-width: 1280px) {
+  .input-field {
+    width: 280px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 
-/* Кнопка поля ввода */
+/* Input Field button */
 .button {
-  width: 123px;
-  padding: 20px;
+  width: auto;
+  padding: 7px;
   background: #497557;
   border-radius: 0px 6px 6px 0px;
   border: #497557;
   font-family: "Raleway", "Times New Roman", serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 5px;
+  line-height: 7px;
   color: #ffffff;
 }
+@media (min-width: 768px) and (max-width: 1280px) {
+  .button {
+    padding: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+@media (min-width: 1280px) {
+  .button {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
 
-/* Кнопка */
+/* Button */
 .submit {
   width: 123px;
   padding: 10px;
@@ -49,7 +99,7 @@
   color: #ffffff;
 }
 
-/* Навигация */
+/* Navigation */
 .nav {
   display: flex;
   flex-direction: column;
