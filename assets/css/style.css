@@ -132,11 +132,16 @@ h1 {
   font-size: 14px;
   line-height: 20px;
   color: #214e41;
+  text-decoration: none;
 }
 @media (min-width: 768px) {
   .nav-item {
     padding: 20px 50px;
   }
+}
+
+.nav-item:hover {
+  color: blue;
 }
 
 .nav-form {

@@ -140,10 +140,14 @@ h1 {
   font-size: 14px;
   line-height: 20px;
   color: $text-color-dark;
+  text-decoration: none;
 
   @media (min-width: $tablet) {
     padding: 20px 50px;
   }
+}
+.nav-item:hover {
+  color: blue;
 }
 
 .nav-form {
