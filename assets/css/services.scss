@@ -1,12 +1,9 @@
+$default-font:"Roboto", "Times New Roman", serif;
+
 $mobile: 375px;
 $tablet: 768px;
 $desktop: 1280px;
 $large-desktop: 1560px;
-
-html,
-body {
-    font-family: "Roboto", sans-serif;
-}
 
 .services__header,
 .services {
@@ -18,7 +15,7 @@ body {
     justify-content: center;
     width: 100%;
 
-    @media (max-width: $mobile), 
+    @media (max-width: $mobile) and 
     (max-width: $tablet) {
         flex-direction: column;
         margin-left: 10px;
@@ -32,6 +29,9 @@ body {
     width: calc(33.33% - 40px);
     padding: 10px;
     margin: 10px;
+    @media (min-width: $tablet) {
+        width: 100%;
+    }
 }
 
 .services__text,
@@ -40,6 +40,7 @@ body {
         width: 80vw;
     }
 }
+
 .services__img {
     @media (min-width: $tablet) {
         width: 30%;

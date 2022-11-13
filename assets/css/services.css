@@ -2,8 +2,24 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
-.services__header, .services {
+.services__main {
+  background: linear-gradient(to bottom, #006666 0%, #ffffff 69%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, .services {
   text-align: center;
+}
+
+h1 {
+  margin: 50px 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  color: rgb(229, 238, 235);
 }
 
 .services {
@@ -17,10 +33,11 @@ html, body {
     margin-left: 10px;
   }
 }
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
   .services {
     width: 80%;
     gap: 5px;
+    margin-left: 10%;
   }
 }
 
@@ -29,9 +46,19 @@ html, body {
   padding: 10px;
   margin: 10px;
 }
-
+@media (min-width: 768px) {
+  .services__block {
+    width: 100%;
+  }
+}
 @media (max-width: 375px), (max-width: 768px) {
   .services__text, .services__img {
     width: 80vw;
   }
 }/*# sourceMappingURL=services.css.map */
+
+@media (min-width: 768px) {
+  .services__img {
+    width: 100%;
+  }
+}
