@@ -13,15 +13,34 @@ $tablet: 768px;
 $desktop: 1280px;
 $large-desktop: 1560px;
 
-/* Форма запроса */
+/* Headings H1 */
+h1 {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: $text-color-dark;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  @media (min-width: $desktop) {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+
+/* Request Form */
 .form {
   display: flex;
 }
 
-/* Поле ввода */
+/* Input field */
 .input-field {
-  width: 280px;
-  padding: 20px;
+  width: 25vw;
+  padding: 7px;
   background: $white;
   border-radius: 6px 0px 0px 6px;
   border: $white;
@@ -29,15 +48,27 @@ $large-desktop: 1560px;
   font-family: $second-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 5px;
+  line-height: 7px;
   color: #222222;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    padding: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  @media (min-width: $desktop) {
+    width: 280px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
-/* Кнопка поля ввода */
+/* Input Field button */
 .button {
-  width: 123px;
-  padding: 20px;
+  width: auto;
+  padding: 7px;
   background: $light-green;
   border-radius: 0px 6px 6px 0px;
   border: $light-green;
@@ -45,12 +76,23 @@ $large-desktop: 1560px;
   font-family: $second-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 5px;
+  line-height: 7px;
   color: $white;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    padding: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  @media (min-width: $desktop) {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
-/* Кнопка */
+/* Button */
 .submit {
   width: 123px;
   padding: 10px;
@@ -66,7 +108,7 @@ $large-desktop: 1560px;
   color: $white;
 }
 
-/* Навигация */
+/* Navigation */
 .nav {
   display: flex;
   flex-direction: column;
@@ -98,10 +140,14 @@ $large-desktop: 1560px;
   font-size: 14px;
   line-height: 20px;
   color: $text-color-dark;
+  text-decoration: none;
 
   @media (min-width: $tablet) {
     padding: 20px 50px;
   }
+}
+.nav-item:hover {
+  color: blue;
 }
 
 .nav-form {
