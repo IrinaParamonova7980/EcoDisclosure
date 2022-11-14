@@ -47,3 +47,15 @@ $large-desktop: 1560px;
 .main-text_white{
     color: $white;
 }
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.link:visited{
+    color: $white;
+}
