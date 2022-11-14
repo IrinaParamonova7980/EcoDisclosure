@@ -1,0 +1,68 @@
+$default-font: "Roboto", "Times New Roman", serif;
+$second-font: "Raleway", "Times New Roman", serif;
+
+$light-green: #497557;
+$green: #0c4a34;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
+$white: #ffffff;
+
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+.who-is-it-for {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+    align-content: center;
+    margin: 1% 0;
+  }
+}
+
+.who-is-it-for__description {
+  align-self: center;
+  padding: 10px 5px;
+  width: 80%;
+
+  @media (min-width: $tablet) {
+    padding: 5%;
+  }
+
+  @media (min-width: $desktop) {
+    width: 45%;
+    padding: 5%;
+  }
+}
+
+.who-is-it-for-foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+  @media (min-width: $desktop) {
+    align-self: flex-end;
+    width: 50%;
+  }
+}
+
+.who-is-it-for-foto__image {
+  max-width: 100%;
+  width: 100%;
+}
+
+.who-is-it-for__title {
+  text-align: center;
+}
+
+.who-is-it-for__text {
+  margin-bottom: 10%;
+  text-align: center;
+}
