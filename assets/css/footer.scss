@@ -23,6 +23,7 @@ $large-desktop: 1560px;
     height: 30vh;
 
     margin-top: 20px;
+    padding: 5px 5px;
 
     background-color: $text-color-dark;
 }
@@ -34,20 +35,39 @@ $large-desktop: 1560px;
 .footer-information{
     display: flex;
     justify-content: space-around;
+
+    height: 70%;
+}
+
+.footer-information-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-information-list{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.footer-information-list__link{
+    padding-bottom: 5px;
 }
 
 .footer-information-social-media{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.footer-information-social-media__text{
+    padding-top: 0px;
 }
 
 .footer-information-social-media__subscription{
+    position: relative;
+
     input{
         width: 355px;
         height: 52px;
@@ -66,17 +86,20 @@ $large-desktop: 1560px;
         font-size: 14px;
         line-height: 24px;
         color: $white;
+        opacity: 0.8;
     }
 }
 
 .arow-container{
+    position: absolute;
     top: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 
     width: 53px;
-    height: 50px;
+    height: 55px;
 
     background-color: $white;
 
@@ -84,4 +107,21 @@ $large-desktop: 1560px;
         width: 19px;
         height: 13px;
     }
+}
+
+.footer-information-social-media__in{
+    width: 26px;
+    height: 26px;
+
+    padding-top: 10px;
+}
+
+.footer__line{
+    width: 94%;
+    border-top: 1px solid $white;
+    opacity: 0.5;
+}
+
+.footer-rights{
+    padding: 10px 0;
 }
