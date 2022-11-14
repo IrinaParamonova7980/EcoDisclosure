@@ -47,7 +47,7 @@ p {
 
 .benefits__header {
   width: 60%;
-  margin: 80px 0px 80px 300px;
+  margin: 80px 0px 80px 270px;
   text-align: center;
 }
 @media (max-width: 375px) {
@@ -66,11 +66,6 @@ p {
   .benefits__header {
     width: 70%;
     margin: 80px 0px 80px 120px;
-  }
-}
-@media (min-width: 1280px) {
-  .benefits__header {
-    margin: 80px 0px 80px 180px;
   }
 }
 
