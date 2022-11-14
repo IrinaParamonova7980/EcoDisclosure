@@ -2,7 +2,7 @@ html, body {
   font-family: "Raleway", "Times New Roman", serif;
 }
 
-.services__main {
+body {
   background: linear-gradient(to bottom, #214E41 0%, #ffffff 69%);
   background-repeat: no-repeat;
   background-size: 100%;
