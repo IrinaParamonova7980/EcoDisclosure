@@ -1,0 +1,91 @@
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+$default-font: "Roboto", "Times New Roman", serif;
+$second-font: "Raleway", "Times New Roman", serif;
+
+$light-green: #497557;
+$green: #0c4a34;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
+$white: #ffffff;
+
+.where-data-is-used {
+  background-color: $light-green;
+}
+
+.where-data-is-used-block {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+
+  @media (min-width: $tablet) {
+    flex-direction: row;
+  }
+}
+
+.where-data-is-used__title {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  margin: 0;
+  color: $white;
+}
+.where-data-is-used__content {
+  width: 100%;
+
+  @media (min-width: $tablet) {
+    margin: 0 2%;
+  }
+}
+.card__image {
+  width: 100%;
+}
+.card__title {
+  margin: 7% 2%;
+
+  text-align: center;
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: $white;
+
+  @media (min-width: $tablet) {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  @media (min-width: $desktop) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+.card__text {
+  margin: 10% 3%;
+
+  text-align: center;
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.02px;
+  color: $white;
+
+  @media (min-width: $tablet) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  @media (min-width: $desktop) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
