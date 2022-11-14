@@ -1,0 +1,43 @@
+.header {
+  background-image: url(../images/header-fon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.h1 {
+  max-width: 40vw;
+  padding: 15% 0 2% 8%;
+  margin: 0;
+}
+
+.header-text {
+  max-width: 40vw;
+  padding: 0 0 1% 8%;
+
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 8px;
+  color: #214e41;
+}
+
+.form {
+  padding: 0 0 15% 8%;
+}
+
+@media (max-width: 300px) {
+  .h1 {
+    padding: 5% 0 1% 8%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-text {
+    max-width: 38vw;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
