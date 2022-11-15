@@ -1,0 +1,46 @@
+h2,
+.services {
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media (max-width: 375px) and (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .services {
+    margin-left: 10%;
+  }
+}
+
+.services__block {
+  width: calc(33.33% - 40px);
+  padding: 10px;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .services__block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .services__text,
+.services__img {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .services__img {
+    width: 30%;
+    margin-right: 10px;
+  }
+}/*# sourceMappingURL=services.css.map */
