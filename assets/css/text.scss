@@ -1,12 +1,12 @@
-$default-font:"Roboto", "Times New Roman", serif;
+$default-font: "Roboto", "Times New Roman", serif;
 $second-font: "Raleway", "Times New Roman", serif;
 
 $light-green: #497557;
-$green: #0C4A34;
+$green: #0c4a34;
 $grey: #757575;
-$dark-green: #02291C;
-$text-color-dark: #214E41;
-$text-color-light: #43806C;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
 $white: #ffffff;
 
 $mobile: 375px;
@@ -14,48 +14,91 @@ $tablet: 768px;
 $desktop: 1280px;
 $large-desktop: 1560px;
 
-.main-title{
-    font-family: $default-font;
-    font-style: normal;
-    font-weight: 700;
-    
-    font-size: 18px;
+.h1,
+.h2 {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @media (min-width: $desktop) {
+    font-size: 36px;
     line-height: 46px;
-    
-    color: $text-color-dark;
-
-    @media(min-width: $tablet){
-        font-size: 36px;
-    }
+  }
 }
 
-.main-title_white{
-    color: $white;
-}
+.h3 {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
 
-.main-text{
-    font-family: $second-font;
-    font-style: normal;
-    font-weight: 400;
+  @media (min-width: $tablet) and (max-width: $desktop) {
     font-size: 18px;
-    line-height: 30px;
-    
-    letter-spacing: 0.02px;
-    color: $grey;
+    line-height: 24px;
+  }
+  @media (min-width: $desktop) {
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
-.main-text_white{
-    color: $white;
+.text {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
 
-.link{
-    text-decoration: none;
+.main-title {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: 700;
+
+  font-size: 18px;
+  line-height: 46px;
+
+  color: $text-color-dark;
+
+  @media (min-width: $tablet) {
+    font-size: 36px;
+  }
 }
 
-.link:hover{
-    cursor: pointer;
+.main-title_white {
+  color: $white;
 }
 
-.link:visited{
-    color: $white;
+.main-text {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  letter-spacing: 0.02px;
+  color: $grey;
+}
+
+.main-text_white {
+  color: $white;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link:visited {
+  color: $white;
 }
