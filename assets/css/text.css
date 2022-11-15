@@ -1,10 +1,61 @@
+.h1,
+.h2 {
+  font-family: "Roboto", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .h1,
+.h2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 1280px) {
+  .h1,
+.h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+
+.h3 {
+  font-family: "Roboto", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media (min-width: 1280px) {
+  .h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.text {
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .main-title {
   font-family: "Roboto", "Times New Roman", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 46px;
-  color: #214E41;
+  color: #214e41;
 }
 @media (min-width: 768px) {
   .main-title {

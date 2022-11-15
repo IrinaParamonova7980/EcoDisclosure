@@ -7,9 +7,10 @@
 }
 
 .h1 {
-  max-width: 40vw;
-  padding: 15% 0 2% 8%;
+  max-width: 60vw;
+  padding: 5% 0 1% 8%;
   margin: 0;
+  color: #214e41;
 }
 
 .header-text {
@@ -20,7 +21,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 6px;
-  line-height: 8px;
+  line-height: 6px;
   color: #214e41;
 }
 
@@ -28,9 +29,10 @@
   padding: 0 0 15% 8%;
 }
 
-@media (max-width: 300px) {
+@media (min-width: 768px) {
   .h1 {
-    padding: 5% 0 1% 8%;
+    max-width: 40vw;
+    padding: 15% 0 2% 8%;
   }
 }
 
