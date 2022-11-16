@@ -6,30 +6,46 @@ $tablet: 768px;
 $desktop: 1280px;
 $large-desktop: 1560px;
 
-h2,
-.services {
+$gray: #757575;
+$green: #214e41;
+$dark-green: #2e4741;
+
+p {
+    font-family: $second-font;
+    color: $gray;
+}
+
+.services__title {
     text-align: center;
+    font-family: $default-font;
+    color: $green;
+    margin-bottom: 50px;
+}
+
+.services__block_title {
+    color: $green;
 }
 
 .services {
     display: flex;
     justify-content: center;
     width: 100%;
+    text-align: center;
 
     @media (max-width: $mobile) and 
     (max-width: $tablet) {
         flex-direction: column;
-        margin-left: 10px;
     }
-    @media (min-width: $tablet) {
-        margin-left: 10%;
+    @media (min-width: $mobile) and 
+    (max-width: $tablet) {
+        flex-direction: column;
     }
 }
 
 .services__block {
-    width: calc(33.33% - 40px);
     padding: 10px;
     margin: 10px;
+    
     @media (min-width: $tablet) {
         width: 100%;
     }
@@ -43,8 +59,10 @@ h2,
 }
 
 .services__img {
+    border: solid $dark-green;
+    border-radius: 3px;
     @media (min-width: $tablet) {
-        width: 30%;
+        width: 90%;
         margin-right: 10px;
     }
 }
