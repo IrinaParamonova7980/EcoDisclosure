@@ -40,6 +40,11 @@ $large-desktop: 1560px;
   align-items: center;
 }
 
+.mission{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .mission__title{
     text-align: center;
     padding-top: 10px;
@@ -50,9 +55,11 @@ $large-desktop: 1560px;
     display: flex;
     flex-direction: column;
     height: 90vh;
+    padding-bottom: 20px;
 
     @media(min-width: $tablet){
        height: 70vh;
+       padding-bottom: 50px;
     }
  } 
 

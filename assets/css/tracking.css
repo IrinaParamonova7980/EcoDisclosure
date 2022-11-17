@@ -1,0 +1,47 @@
+.tracking-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .tracking-blocks {
+    flex-direction: row;
+  }
+}
+
+.tracking-block1,
+.tracking-block2 {
+  width: 90%;
+  margin: 3% auto;
+}
+@media (min-width: 768px) {
+  .tracking-block1,
+.tracking-block2 {
+    width: 40%;
+    margin: 2%;
+  }
+}
+
+.tracking-title {
+  align-self: center;
+  text-align: center;
+  padding: 3%;
+}
+
+.tracking-block1__image {
+  width: 100%;
+  border-radius: 17px;
+}
+
+.tracking-block2__image {
+  width: 100%;
+  border-radius: 17px;
+}
+
+.tracking-block1__text {
+  padding: 7% 1% 5% 1%;
+}
+
+.tracking-block2__text {
+  padding: 7% 1% 5% 1%;
+}/*# sourceMappingURL=tracking.css.map */

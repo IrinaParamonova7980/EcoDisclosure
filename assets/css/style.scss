@@ -76,7 +76,7 @@ $large-desktop: 1560px;
 /* Button */
 .submit {
   width: 123px;
-  padding: 10px;
+  padding: 4px;
   background: $light-green;
   border-radius: 6px;
   border: $light-green;
@@ -87,6 +87,14 @@ $large-desktop: 1560px;
   font-size: 14px;
   line-height: 20px;
   color: $white;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    padding: 6px;
+  }
+
+  @media (min-width: $desktop) {
+    padding: 10px;
+  }
 }
 
 /* Navigation */
@@ -113,11 +121,11 @@ $large-desktop: 1560px;
 }
 
 .logo__image {
-  width: 22px;
+  width: 12px;
 }
 
 .logo__text {
-  height: 22px;
+  height: 12px;
 }
 .nav-item {
   padding: 10px 10px;
