@@ -1,16 +1,15 @@
-p {
-  font-family: "Raleway", "Times New Roman", serif;
-  color: #757575;
-}
-
 .services__title {
   text-align: center;
   font-family: "Roboto", "Times New Roman", serif;
   color: #214e41;
-  margin-bottom: 50px;
+  margin: 5% auto;
 }
 
-.services__block_title {
+.services-block__title {
+  color: #0c4a34;
+}
+
+.services-block__text {
   color: #214e41;
 }
 
@@ -49,7 +48,7 @@ p {
 }
 
 .services__img {
-  border: solid #2e4741;
+  border: solid #02291c;
   border-radius: 3px;
 }
 @media (min-width: 768px) {
