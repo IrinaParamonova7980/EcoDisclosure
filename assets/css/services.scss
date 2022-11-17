@@ -1,4 +1,4 @@
-$default-font:"Roboto", "Times New Roman", serif;
+$default-font: "Roboto", "Times New Roman", serif;
 $second-font: "Raleway", "Times New Roman", serif;
 
 $mobile: 375px;
@@ -6,63 +6,64 @@ $tablet: 768px;
 $desktop: 1280px;
 $large-desktop: 1560px;
 
-$gray: #757575;
-$green: #214e41;
-$dark-green: #2e4741;
-
-p {
-    font-family: $second-font;
-    color: $gray;
-}
+$light-green: #497557;
+$green: #0c4a34;
+$grey: #757575;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
+$white: #ffffff;
 
 .services__title {
-    text-align: center;
-    font-family: $default-font;
-    color: $green;
-    margin-bottom: 50px;
+  text-align: center;
+  font-family: $default-font;
+  color: $text-color-dark;
+  margin: 5% auto;
 }
 
-.services__block_title {
-    color: $green;
+.services-block__title {
+  color: $green;
+}
+
+.services-block__text {
+  color: $text-color-dark;
 }
 
 .services {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 
-    @media (max-width: $mobile) and 
-    (max-width: $tablet) {
-        flex-direction: column;
-    }
-    @media (min-width: $mobile) and 
-    (max-width: $tablet) {
-        flex-direction: column;
-    }
+  @media (max-width: $mobile) and (max-width: $tablet) {
+    flex-direction: column;
+  }
+  @media (min-width: $mobile) and (max-width: $tablet) {
+    flex-direction: column;
+  }
 }
 
 .services__block {
-    padding: 10px;
-    margin: 10px;
-    
-    @media (min-width: $tablet) {
-        width: 100%;
-    }
+  padding: 10px;
+  margin: 10px;
+
+  @media (min-width: $tablet) {
+    width: 100%;
+  }
 }
 
 .services__text,
 .services__img {
-    @media (max-width: $mobile) {
-        width: 80vw;
-    }
+  @media (max-width: $mobile) {
+    width: 80vw;
+  }
 }
 
 .services__img {
-    border: solid $dark-green;
-    border-radius: 3px;
-    @media (min-width: $tablet) {
-        width: 90%;
-        margin-right: 10px;
-    }
+  border: solid $dark-green;
+  border-radius: 3px;
+  @media (min-width: $tablet) {
+    width: 90%;
+    margin-right: 10px;
+  }
 }
