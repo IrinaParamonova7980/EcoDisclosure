@@ -1,0 +1,59 @@
+$default-font: "Roboto", "Times New Roman", serif;
+$second-font: "Raleway", "Times New Roman", serif;
+
+$light-green: #497557;
+$green: #0c4a34;
+$grey: #757575;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
+$white: #ffffff;
+
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+.tracking-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $tablet) {
+    flex-direction: row;
+  }
+}
+
+.tracking-block1,
+.tracking-block2 {
+  width: 90%;
+  margin: 3% auto;
+
+  @media (min-width: $tablet) {
+    width: 40%;
+    margin: 2%;
+  }
+}
+
+.tracking-title {
+  align-self: center;
+  text-align: center;
+  padding: 3%;
+}
+
+.tracking-block1__image {
+  width: 100%;
+  border-radius: 17px;
+}
+
+.tracking-block2__image {
+  width: 100%;
+  border-radius: 17px;
+}
+
+.tracking-block1__text {
+  padding: 7% 1% 5% 1%;
+}
+.tracking-block2__text {
+  padding: 7% 1% 5% 1%;
+}
