@@ -65,7 +65,7 @@
 /* Button */
 .submit {
   width: 123px;
-  padding: 10px;
+  padding: 4px;
   background: #497557;
   border-radius: 6px;
   border: #497557;
@@ -75,6 +75,16 @@
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .submit {
+    padding: 6px;
+  }
+}
+@media (min-width: 1280px) {
+  .submit {
+    padding: 10px;
+  }
 }
 
 /* Navigation */
@@ -103,11 +113,11 @@
 }
 
 .logo__image {
-  width: 22px;
+  width: 12px;
 }
 
 .logo__text {
-  height: 22px;
+  height: 12px;
 }
 
 .nav-item {
