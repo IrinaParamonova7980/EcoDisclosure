@@ -1,0 +1,14 @@
+.figure {
+  position: relative;
+}
+
+.figure-caption {
+  position: absolute;
+  left: 30px;
+  bottom: 40%;
+  width: 100%;
+}
+
+.figure-img {
+  width: 100vw;
+}/*# sourceMappingURL=request.css.map */
