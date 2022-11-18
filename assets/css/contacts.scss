@@ -47,3 +47,59 @@ $large-desktop: 1560px;
         padding-left: 10%;
     }
 }
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 40vh;
+
+    margin-top: 10%;
+
+    font-family: $second-font;
+
+    @media(min-width: $tablet){
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+}
+
+.field{
+    width: 90%;
+    height: 15%;
+
+    padding-left: 10px;
+
+    @media(min-width: $tablet){
+        width: 75%;
+    }
+    
+    @media(min-width: $desktop){
+        width: 40%;
+    }
+}
+
+.form__button{
+    width: 50%;
+    height: 20%;
+
+    background-color: $white;
+    color: $dark-green;
+    border: 1px solid $light-green;
+    border-radius: 1000px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+
+    @media(min-width: $tablet){
+        width: 30%;
+        height: 15%;
+    }
+
+    @media(min-width: $desktop){
+        width: 20%;
+    }
+}
