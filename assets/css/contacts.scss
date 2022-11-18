@@ -1,0 +1,105 @@
+$default-font: "Roboto", "Times New Roman", serif;
+$second-font: "Raleway", "Times New Roman", serif;
+
+$light-green: #497557;
+$green: #0c4a34;
+$grey: #757575;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
+$white: #ffffff;
+
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+.title-container{
+    display: flex;
+    justify-content: center;
+
+    height: 20vh;
+
+    background-image: url(../images/contacts/contacts.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    @media(min-width: $tablet){
+        height: 30vh;
+    }
+
+    @media(min-width: $desktop){
+        height: 40vh;
+    }
+}
+
+.title-container__title{
+    align-self: center;
+    padding-left: 30%;
+
+    color: $text-color-dark;
+
+    @media(min-width: $tablet){
+        padding-left: 20%;
+    }
+
+    @media(min-width: $desktop){
+        padding-left: 10%;
+    }
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 40vh;
+
+    margin-top: 10%;
+
+    font-family: $second-font;
+
+    @media(min-width: $tablet){
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+}
+
+.field{
+    width: 90%;
+    height: 15%;
+
+    padding-left: 10px;
+
+    @media(min-width: $tablet){
+        width: 75%;
+    }
+    
+    @media(min-width: $desktop){
+        width: 40%;
+    }
+}
+
+.form__button{
+    width: 50%;
+    height: 20%;
+
+    background-color: $white;
+    color: $dark-green;
+    border: 1px solid $light-green;
+    border-radius: 1000px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+
+    @media(min-width: $tablet){
+        width: 30%;
+        height: 15%;
+    }
+
+    @media(min-width: $desktop){
+        width: 20%;
+    }
+}

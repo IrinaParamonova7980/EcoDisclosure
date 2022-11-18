@@ -25,7 +25,7 @@ $large-desktop: 1560px;
 
     margin-top: 20px;
 
-    background-color: $text-color-dark;
+    background-color: $light-green;
 
     @media(min-width: $tablet){
         align-items: stretch;
@@ -80,7 +80,7 @@ $large-desktop: 1560px;
         width: 270px;
         height: 52px;
 
-        background-color: $text-color-dark;
+        background-color: $light-green;
         border: 1px solid $white;
 
         padding-left: 5px;
