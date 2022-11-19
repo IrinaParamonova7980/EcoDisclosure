@@ -2,13 +2,15 @@
   text-align: center;
   font-family: "Roboto", "Times New Roman", serif;
   color: #214e41;
-  margin: 5% auto;
+  margin: 12% auto;
+}
+@media (min-width: 768px) {
+  .services__title {
+    margin: 4% auto;
+  }
 }
 
-.services-block__title {
-  color: #0c4a34;
-}
-
+.services-block__title,
 .services-block__text {
   color: #214e41;
 }
@@ -48,12 +50,11 @@
 }
 
 .services__img {
-  border: solid #02291c;
   border-radius: 3px;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .services__img {
     width: 90%;
-    margin-right: 10px;
   }
 }/*# sourceMappingURL=services.css.map */
