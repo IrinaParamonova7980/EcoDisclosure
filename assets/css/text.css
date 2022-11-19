@@ -87,12 +87,21 @@
 
 .link:hover {
   text-decoration: underline;
-}
-
-.link:hover {
   cursor: pointer;
 }
 
 .link:visited {
+  color: #ffffff;
+}
+
+.link_request {
+  text-decoration: none;
+}
+
+.link_request:hover {
+  cursor: pointer;
+}
+
+.link_request:visited {
   color: #ffffff;
 }/*# sourceMappingURL=text.css.map */
