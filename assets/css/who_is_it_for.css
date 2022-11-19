@@ -41,6 +41,16 @@
   max-width: 100%;
   width: 100%;
 }
+@media (min-width: 768px) and (max-width: 1280px) {
+  .who-is-it-for-container__foto {
+    max-width: 50%;
+  }
+}
+@media (min-width: 1280px) {
+  .who-is-it-for-container__foto {
+    max-width: 70%;
+  }
+}
 
 .who-is-it-for__title {
   text-align: center;

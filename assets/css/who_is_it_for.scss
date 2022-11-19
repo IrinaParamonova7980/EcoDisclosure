@@ -33,7 +33,7 @@ $large-desktop: 1560px;
   }
 }
 
-.who-is-it-for-container{
+.who-is-it-for-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +53,13 @@ $large-desktop: 1560px;
 .who-is-it-for-container__foto {
   max-width: 100%;
   width: 100%;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 50%;
+  }
+  @media (min-width: $desktop) {
+    max-width: 70%;
+  }
 }
 
 .who-is-it-for__title {
