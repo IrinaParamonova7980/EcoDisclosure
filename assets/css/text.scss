@@ -97,12 +97,21 @@ $large-desktop: 1560px;
 
 .link:hover {
   text-decoration: underline;
-}
-
-.link:hover {
   cursor: pointer;
 }
 
 .link:visited {
   color: $white;
 }
+
+.link_request{
+    text-decoration: none;
+  }
+
+.link_request:hover{
+    cursor: pointer;
+}
+
+.link_request:visited {
+    color: $white;
+  }
