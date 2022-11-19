@@ -1,0 +1,50 @@
+$default-font: "Roboto", "Times New Roman", serif;
+$second-font: "Raleway", "Times New Roman", serif;
+
+$light-green: #497557;
+$green: #0c4a34;
+$grey: #757575;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
+$white: #ffffff;
+
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+.dna {
+  background-image: url(../images/dna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 15%;
+  margin-top: 1%;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    padding: 13%;
+  }
+
+  @media (min-width: $desktop) {
+    padding: 11%;
+  }
+}
+
+.dna-title {
+  color: $white;
+  text-align: center;
+  font-size: 35px;
+  line-height: 55px;
+  box-sizing: border-box;
+  text-shadow: 4px 4px 4px $light-green;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  @media (min-width: $desktop) {
+    font-size: 80px;
+    line-height: 120px;
+  }
+}
