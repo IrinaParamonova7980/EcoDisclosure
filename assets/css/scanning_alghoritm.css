@@ -62,4 +62,9 @@
 .scanning-algorithm-image-container__image {
   max-width: 100%;
   width: 100%;
+}
+
+.scanning-algorithm-desciption__title,
+.scanning-algorithm-desciption__text {
+  color: #214e41;
 }/*# sourceMappingURL=scanning_alghoritm.css.map */
