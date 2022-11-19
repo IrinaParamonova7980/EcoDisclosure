@@ -21,6 +21,7 @@
 .mission__title {
   text-align: center;
   padding-top: 10px;
+  color: #214e41;
 }
 
 .mission-slide {
@@ -38,6 +39,7 @@
 
 .mission-slide__text {
   padding: 5px 20px;
+  color: #214e41;
 }
 @media (min-width: 768px) {
   .mission-slide__text {
@@ -58,4 +60,9 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.mission-slide-author__name,
+.mission-slide-author__post {
+  color: #214e41;
 }/*# sourceMappingURL=mission.css.map */
