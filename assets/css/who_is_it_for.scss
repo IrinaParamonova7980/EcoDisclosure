@@ -16,10 +16,6 @@ $large-desktop: 1560px;
 .who-is-it-for {
   display: flex;
   flex-direction: column;
-
-  @media (min-width: $desktop) {
-    flex-direction: row;
-  }
 }
 
 .who-is-it-for__description {
@@ -58,17 +54,24 @@ $large-desktop: 1560px;
     max-width: 50%;
   }
   @media (min-width: $desktop) {
-    max-width: 70%;
+    max-width: 50%;
   }
 }
 
 .who-is-it-for__title {
   text-align: center;
   color: $text-color-dark;
+  margin-top: 0;
 }
 
 .who-is-it-for__text {
+  width: 90%;
+  margin: 2% auto 0 auto;
   text-align: center;
   letter-spacing: 0.02px;
   color: $text-color-dark;
+
+  @media (min-width: $desktop) {
+    width: 60%;
+  }
 }
