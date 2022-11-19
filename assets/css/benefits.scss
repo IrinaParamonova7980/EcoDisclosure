@@ -1,4 +1,4 @@
-$default-font:"Roboto", "Times New Roman", serif;
+$default-font: "Roboto", "Times New Roman", serif;
 $second-font: "Raleway", "Times New Roman", serif;
 
 $mobile: 375px;
@@ -8,92 +8,48 @@ $large-desktop: 1560px;
 
 $green: #214e41;
 $gray: #757575;
+$text-color-dark: #214e41;
 
-h1 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 46px;
-    @media (min-width: $mobile) and (max-width: $tablet) {
-        font-size: 25px;
-    }
-}
-
-h1, h2 {
-    font-family: $default-font;
-    color: $green;
-    @media (max-width: $mobile)  {
-        font-size: 18px;
-    }
-}
-
-p {
-    font-family: $second-font;
-    color: $gray;
-
-    @media (max-width: $mobile)  {
-        font-size: 10px;
-    }
-}
-
-.benefits__header h1, .benefits__header p { 
-    font-style: normal;
-}
-
-.benefits__header p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.02px;
-
-    @media (max-width: $mobile)  {
-        font-size: 12px;
-    }
+.h2,
+.h3,
+.text {
+  color: $text-color-dark;
 }
 
 .benefits__header {
-    width: 60%;
-    margin: 80px 0px 80px 270px;
-    text-align: center;
+  width: 90%;
+  margin: 5% auto;
+  text-align: center;
 
-    @media (max-width: $mobile)  {
-        width: 90%;
-        margin: 10px 0px 0px 15px;
-    }
-
-    @media (min-width: $mobile) and (max-width: $tablet) {
-        width: 90%;
-        margin: 10px 0px 10px 20px;
-    }
-    @media (min-width: $tablet) and (max-width: $desktop) {
-        width: 70%;
-        margin: 80px 0px 80px 120px;
-    }
+  @media (min-width: $tablet) {
+    width: 50%;
+  }
 }
 
 .benefits {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .benefits__enumeration {
+  width: 20%;
+  padding: 20px;
+  border: 3px solid $green;
+
+  @media (max-width: $mobile) {
+    width: 50%;
+  }
+
+  @media (min-width: $mobile) and (max-width: $tablet) {
+    width: 50%;
+  }
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
     width: 20%;
-    padding: 20px;
-    border: thick double $green;
-
-    @media (max-width: $mobile)  {
-        width: 50%;
-    }
-
-    @media (min-width: $mobile) and (max-width: $tablet) {
-        width: 50%;
-    }
-
-    @media (min-width: $tablet) and (max-width: $desktop) {
-        width: 20%;
-    }
+  }
 }
 
-.benefits__enumeration IMG {
-    width: 30%; 
+.benefits__enumeration-image {
+  width: 30%;
 }
