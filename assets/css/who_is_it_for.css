@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .who-is-it-for {
     flex-direction: row;
   }
@@ -20,10 +20,26 @@
   }
 }
 
-.who-is-it-for-foto {
+.who-is-it-for-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+  padding: 10px;
+}
+@media (min-width: 1280px) {
+  .who-is-it-for-container {
+    align-self: flex-end;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.who-is-it-for-container__foto {
+  max-width: 100%;
   width: 100%;
-  box-sizing: border-box;
-  padding: 1%;
 }
 
 .who-is-it-for__title {
