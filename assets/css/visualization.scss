@@ -56,6 +56,13 @@ $white: #ffffff;
   }
 }
 
+.visualization-item-container_first{
+  @media (min-width: $desktop) {
+    height: 60vh;
+  }
+}
+
+
 .visualization-item-1 {
   width: 100%;
   box-sizing: border-box;
