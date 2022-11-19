@@ -137,7 +137,7 @@
 }
 
 .nav-item:hover {
-  color: blue;
+  text-decoration: underline;
 }
 
 .nav-form {
