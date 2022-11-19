@@ -1,0 +1,39 @@
+.dna {
+  background-image: url(../images/dna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 15%;
+  margin-top: 1%;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .dna {
+    padding: 13%;
+  }
+}
+@media (min-width: 1280px) {
+  .dna {
+    padding: 11%;
+  }
+}
+
+.dna-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 35px;
+  line-height: 55px;
+  box-sizing: border-box;
+  text-shadow: 4px 4px 4px #497557;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .dna-title {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+@media (min-width: 1280px) {
+  .dna-title {
+    font-size: 80px;
+    line-height: 120px;
+  }
+}/*# sourceMappingURL=dna.css.map */
