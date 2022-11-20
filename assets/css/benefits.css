@@ -1,71 +1,18 @@
-h1 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 46px;
-}
-@media (min-width: 375px) and (max-width: 768px) {
-  h1 {
-    font-size: 25px;
-  }
-}
-
-h1, h2 {
-  font-family: "Roboto", "Times New Roman", serif;
+.h2,
+.h3,
+.text {
   color: #214e41;
-}
-@media (max-width: 375px) {
-  h1, h2 {
-    font-size: 18px;
-  }
-}
-
-p {
-  font-family: "Raleway", "Times New Roman", serif;
-  color: #757575;
-}
-@media (max-width: 375px) {
-  p {
-    font-size: 10px;
-  }
-}
-
-.benefits__header h1, .benefits__header p {
-  font-style: normal;
-}
-
-.benefits__header p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 0.02px;
-}
-@media (max-width: 375px) {
-  .benefits__header p {
-    font-size: 12px;
-  }
 }
 
 .benefits__header {
-  width: 60%;
-  margin: 80px 0px 80px 270px;
+  width: 90%;
+  margin: 5% auto;
   text-align: center;
 }
-@media (max-width: 375px) {
+@media (min-width: 768px) {
   .benefits__header {
-    width: 90%;
-    margin: 10px 0px 0px 15px;
-  }
-}
-@media (min-width: 375px) and (max-width: 768px) {
-  .benefits__header {
-    width: 90%;
-    margin: 10px 0px 10px 20px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1280px) {
-  .benefits__header {
-    width: 70%;
-    margin: 80px 0px 80px 120px;
+    width: 50%;
+    margin: 5% auto 3% auto;
   }
 }
 
@@ -78,24 +25,36 @@ p {
 .benefits__enumeration {
   width: 20%;
   padding: 20px;
-  border: thick double #214e41;
+  border: 3px solid #214e41;
+  margin: 3%;
 }
 @media (max-width: 375px) {
   .benefits__enumeration {
-    width: 50%;
+    width: 90%;
   }
 }
 @media (min-width: 375px) and (max-width: 768px) {
   .benefits__enumeration {
-    width: 50%;
+    width: 90%;
   }
 }
 @media (min-width: 768px) and (max-width: 1280px) {
   .benefits__enumeration {
-    width: 20%;
+    width: 25%;
+    margin: 1%;
   }
 }
 
-.benefits__enumeration IMG {
+.benefits__enumeration-image {
   width: 30%;
+}
+@media (max-width: 375px) {
+  .benefits__enumeration-image {
+    width: 20%;
+  }
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .benefits__enumeration-image {
+    width: 15%;
+  }
 }/*# sourceMappingURL=benefits.css.map */

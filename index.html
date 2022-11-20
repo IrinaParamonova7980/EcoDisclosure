@@ -12,39 +12,43 @@
     />
     <title>EcoDisclosure</title>
     <link href="assets/css/normalize.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/images/logo/Union_green.svg" />
     <link href="assets/css/text.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/header.css" rel="stylesheet" />
     <link href="assets/css/scanning_alghoritm.css" rel="stylesheet" />
     <link href="assets/css/what_we_do.css" rel="stylesheet" />
     <link href="assets/css/visualization.css" rel="stylesheet" />
+    <link href="assets/css/benefits.css" rel="stylesheet" />
+    <link href="assets/css/dna.css" rel="stylesheet" />
     <link href="assets/css/footer.css" rel="stylesheet" />
     <link href="assets/css/who_is_it_for.css" rel="stylesheet" />
     <link href="assets/css/where_data_is_used.css" rel="stylesheet" />
     <link href="assets/css/mission.css" rel="stylesheet" />
-    <link href="assets/css/text.css" rel="stylesheet" />
     <link href="node_modules/swiper/swiper-bundle.min.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navigation -->
     <nav class="nav">
       <div class="logo">
-        <img
-          class="logo__image"
-          src="assets/images/Union.svg"
-          alt="EcoDisclosure"
-        />
-        <img
-          class="logo__text"
-          src="assets/images/ECODISCLOSURE.svg"
-          alt="EcoDisclosure"
-        />
+        <a class="link" href="index.html">
+          <img
+            class="logo__image"
+            src="assets/images/logo/Union_green.svg"
+            alt="EcoDisclosure"
+          />
+          <img
+            class="logo__text"
+            src="assets/images/logo/ECODISCLOSURE_green.svg"
+            alt="EcoDisclosure"
+          />
+        </a>
       </div>
-      <a class="nav-item" href="">About</a>
-      <a class="nav-item" href="">Services</a>
+      <a class="nav-item" href="index.html">About</a>
+      <a class="nav-item" href="services_page.html">Services</a>
       <div>
         <form class="nav-form">
-          <input class="submit" type="submit" value="Request" />
+          <a class="submit link_request" href="request.html">Request</a>
         </form>
       </div>
     </nav>
@@ -137,11 +141,13 @@
           start-ups
         </div>
       </div>
-      <img
-        class="who-is-it-for-foto"
-        src="assets/images/block_3_who-is-it-for.jpg"
-        alt="Business man"
-      />
+      <div class="who-is-it-for-container">
+        <img
+          class="who-is-it-for-container__foto"
+          src="assets/images/block_3_who-is-it-for.jpg"
+          alt="Business man"
+        />
+      </div>
     </section>
 
     <!-- Blok 5. Where ESG data is used -->
@@ -194,12 +200,14 @@
     <!-- Blok 6. Visualization -->
 
     <section class="visualization">
-      <div class="visualization-item-1">
-        <img
-          class="visualization-item-1__image"
-          src="assets/images/block_visualization/chart1.jpg"
-          alt="Chart"
-        />
+      <div class="visualization-item">
+        <div class="visualization-item-container">
+          <img
+            class="visualization-item-1"
+            src="assets/images/block_visualization/chart1.jpg"
+            alt="Chart"
+          />
+        </div>
         <div class="visualization__title">
           <h2 class="h2">With us you will get everything in one place</h2>
           <div class="text">
@@ -208,30 +216,157 @@
           </div>
         </div>
       </div>
-      <div class="visualization-item-2">
-        <img
-          class="visualization-item-2__image1"
-          src="assets/images/block_visualization/chart_light.png"
-          alt="Chart"
-        />
-        <img
-          class="visualization-item-2__image2"
-          src="assets/images/block_visualization/history.png"
-          alt="Environmental"
-        />
+      <div class="visualization-item">
+        <div class="visualization-item-container">
+          <img
+            class="visualization-item-2__image1"
+            src="assets/images/block_visualization/chart_light.png"
+            alt="Chart"
+          />
+        </div>
+        <div class="visualization-item-container">
+          <img
+            class="visualization-item-2__image2"
+            src="assets/images/block_visualization/history.png"
+            alt="Environmental"
+          />
+        </div>
       </div>
-      <div class="visualization-item-3">
-        <img
-          class="visualization-item-3__image1"
-          src="assets/images/block_visualization/esg1.png"
-          alt="ESG"
-        />
-        <img
-          class="visualization-item-3__image2"
-          src="assets/images/block_visualization/dashboard1.png"
-          alt="dashboard"
-        />
+      <div class="visualization-item">
+        <div class="visualization-item-container">
+          <img
+            class="visualization-item-3__image1"
+            src="assets/images/block_visualization/esg1.png"
+            alt="ESG"
+          />
+        </div>
+        <div class="visualization-item-container">
+          <img
+            class="visualization-item-3__image2"
+            src="assets/images/block_visualization/dashboard1.png"
+            alt="dashboard"
+          />
+        </div>
       </div>
+    </section>
+
+    <!-- Blok 7. Benefits -->
+
+    <section>
+      <div class="benefits__header">
+        <h2 class="h2">
+          Our service helps to inspect any supplier quickly and efficiently
+        </h2>
+        <p class="text">
+          Our scoring algorithm is based on international standards such as GRI,
+          TCFD, SASB, ISO 26000, UNGC, in accordance with the rules of regional
+          legislation and other best practices in ESG and corporate governance
+        </p>
+      </div>
+      <div class="benefits">
+        <figure class="benefits__enumeration">
+          <img
+            class="benefits__enumeration-image"
+            src="assets/images/benefits/cost_reduction.png"
+            alt="Cost reduction"
+          />
+          <figcaption>
+            <h3 class="h3">Cost reduction</h3>
+            <p class="text">
+              Our service lowers the costs of audit firms recruitment, in-house
+              hiring of ESG-analysts, as well as the development of the internal
+              analytics system
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="benefits__enumeration">
+          <img
+            class="benefits__enumeration-image"
+            src="assets/images/benefits/functionality.png"
+            alt="Functionality"
+          />
+          <figcaption>
+            <h3 class="h3">Functionality: 2 in 1</h3>
+            <p class="text">
+              We have the opportunity to not only score ESG-risks, but also
+              score the functionality for ESG-information disclosure
+              (ESG-showcase) on one license. Utilization of ESG-showcase reduces
+              the burden of having to prepare various sets of documents and
+              filling the forms for other companies
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="benefits__enumeration">
+          <img
+            class="benefits__enumeration-image"
+            src="assets/images/benefits/quick_and_simple_audit.png"
+            alt="Quick and simple audit"
+          />
+          <figcaption>
+            <h3 class="h3">Quick and simple audit</h3>
+            <p class="text">
+              The report processing time - 5 working days. The organization can
+              be checked with just one click. Time saving for collection and
+              analysis of the information received, as well as interpretation of
+              the scoring result
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="benefits__enumeration">
+          <img
+            class="benefits__enumeration-image"
+            src="assets/images/benefits/information_disclosure.png"
+            alt="Information disclosure"
+          />
+          <figcaption>
+            <h3 class="h3">Information disclosure</h3>
+            <p class="text">
+              Each organization is able to share its decisions and ESG best
+              practices with the community, to quickly post news or an ESG
+              job-opening in the unified form.
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="benefits__enumeration">
+          <img
+            class="benefits__enumeration-image"
+            src="assets/images/benefits/expansion_of_sales.png"
+            alt="Expansion of sales"
+          />
+          <figcaption>
+            <h3 class="h3">Expansion of sales</h3>
+            <p class="text">
+              The service allows to close more responsible sales in the short
+              term. Responsible companies incorporation into a database built by
+              the service. Large customers, in turn, can easily find a
+              responsible supplier. Responsible organizations with strong
+              ratings conclude more contracts with large customers
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="benefits__enumeration">
+          <img
+            class="benefits__enumeration-image"
+            src="assets/images/benefits/monitoring_the_state_of_organization.png"
+            alt="Monitoring"
+          />
+          <figcaption>
+            <h3 class="h3">Monitoring the state of organization</h3>
+            <p class="text">
+              The monitoring system of the service operates continuously. We
+              have complete control over company changes derived from open
+              sources, we estimate its impact on ESG risk level in real time.
+              Real-time visualize and control the environmental sustainability
+              of your chain of suppliers by tracking its weak links
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Blok 8. DNA -->
+    <section class="dna">
+      <h2 class="dna-title h2">ESG is a DNA of modern business</h2>
     </section>
 
     <!-- Block 9. Our mission -->
@@ -239,7 +374,7 @@
       <h2 class="mission__title h2">Our mission</h2>
       <div class="swiper-wrapper">
         <div class="swiper-slide mission-slide">
-          <p class="mission-slide__text">
+          <p class="mission-slide__text text">
             We create a business community in which the ESG information
             disclosure and scoring are the usual business practices. We offer
             the most accessible and fast service on ESG risks scoring for all
@@ -256,12 +391,12 @@
                 alt="CEO"
               />
             </div>
-            <p class="mission-slide-author__name">Maria Dmitrieva</p>
-            <p class="mission-slide-author__post">Co-founder, CEO</p>
+            <p class="mission-slide-author__name text">Maria Dmitrieva</p>
+            <p class="mission-slide-author__post text">Co-founder, CEO</p>
           </div>
         </div>
         <div class="swiper-slide mission-slide">
-          <p class="mission-slide__text">
+          <p class="mission-slide__text text">
             We create conditions for sustainable business development through
             the openness of ESG-information
           </p>
@@ -273,12 +408,12 @@
                 alt="COO"
               />
             </div>
-            <p class="mission-slide-author__name">Roman Dmitriev</p>
-            <p class="mission-slide-author__post">Co-founder, COO</p>
+            <p class="mission-slide-author__name text">Roman Dmitriev</p>
+            <p class="mission-slide-author__post text">Co-founder, COO</p>
           </div>
         </div>
         <div class="swiper-slide mission-slide">
-          <p class="mission-slide__text">
+          <p class="mission-slide__text text">
             We provide the possibility to improve environmental sustainability
             and social awareness to all companies regardless of a business size,
             opening opportunities for small-scale business to comply with the
@@ -292,8 +427,8 @@
                 alt="CTO"
               />
             </div>
-            <p class="missio-slide-author__name">Victor Suzdalev</p>
-            <p class="mission-slide-author__post">Co-founder, CTO</p>
+            <p class="missio-slide-author__name text">Victor Suzdalev</p>
+            <p class="mission-slide-author__post text">Co-founder, CTO</p>
           </div>
         </div>
       </div>
@@ -313,8 +448,17 @@
           </p>
         </div>
         <div class="footer-information-list">
-          <a class="footer-information-list__link link">Services</a>
-          <a class="footer-information-list__link link">Request</a>
+          <a
+            class="footer-information-list__link link"
+            href="services_page.html"
+            >Services</a
+          >
+          <a class="footer-information-list__link link" href="request.html"
+            >Request</a
+          >
+          <a class="footer-information-list__link link" href="contacts.html"
+            >Contacts</a
+          >
         </div>
         <div class="footer-information-social-media">
           <p class="footer-information-social-media__text">
