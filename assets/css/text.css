@@ -89,4 +89,8 @@
 
 .link_request:visited {
   color: #ffffff;
+}
+
+.request-link:hover {
+  color: #214e41;
 }/*# sourceMappingURL=text.css.map */
