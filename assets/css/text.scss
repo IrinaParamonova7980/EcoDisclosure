@@ -19,12 +19,12 @@ $large-desktop: 1560px;
   font-family: $default-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 24px;
 
   @media (min-width: $tablet) and (max-width: $desktop) {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 30px;
   }
   @media (min-width: $desktop) {
     font-size: 36px;
@@ -36,12 +36,12 @@ $large-desktop: 1560px;
   font-family: $default-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
 
   @media (min-width: $tablet) and (max-width: $desktop) {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
   }
   @media (min-width: $desktop) {
     font-size: 20px;
@@ -58,18 +58,7 @@ $large-desktop: 1560px;
 }
 
 .main-title {
-  font-family: $default-font;
-  font-style: normal;
-  font-weight: 700;
-
-  font-size: 18px;
-  line-height: 46px;
-
   color: $text-color-dark;
-
-  @media (min-width: $tablet) {
-    font-size: 36px;
-  }
 }
 
 .main-title_white {
@@ -77,12 +66,6 @@ $large-desktop: 1560px;
 }
 
 .main-text {
-  font-family: $second-font;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-
   letter-spacing: 0.02px;
   color: $grey;
 }
@@ -104,14 +87,14 @@ $large-desktop: 1560px;
   color: $white;
 }
 
-.link_request{
-    text-decoration: none;
-  }
+.link_request {
+  text-decoration: none;
+}
 
-.link_request:hover{
-    cursor: pointer;
+.link_request:hover {
+  cursor: pointer;
 }
 
 .link_request:visited {
-    color: $white;
-  }
+  color: $white;
+}
