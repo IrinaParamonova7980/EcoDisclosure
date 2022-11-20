@@ -15,7 +15,7 @@ $desktop: 1280px;
 $large-desktop: 1560px;
 
 .supply-chain-header {
-  background-image: url(../images/block5_ship.jpg);
+  background-image: url(../images/trains.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,10 +27,11 @@ $large-desktop: 1560px;
   margin: 5% auto 50% auto;
   text-align: center;
   color: $white;
+  text-shadow: 1px 1px 1px $green;
 
   @media (min-width: $desktop) {
-    max-width: 80vw;
-    margin: 5% auto 40% auto;
+    max-width: 50vw;
+    margin: 1% auto 30% auto;
   }
 }
 .supply-chain-text {
