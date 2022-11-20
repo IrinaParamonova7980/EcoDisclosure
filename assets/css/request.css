@@ -7,6 +7,12 @@
   left: 30px;
   bottom: 40%;
   width: 100%;
+  display: none;
+}
+@media (min-width: 768px) {
+  .figure-caption {
+    display: block;
+  }
 }
 
 .figure-img {
