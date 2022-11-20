@@ -1,0 +1,38 @@
+.supply-chain-header {
+  background-image: url(../images/block5_ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5%;
+}
+
+.supply-chain-header__title {
+  max-width: 90vw;
+  margin: 5% auto 50% auto;
+  text-align: center;
+  color: #ffffff;
+}
+@media (min-width: 1280px) {
+  .supply-chain-header__title {
+    max-width: 80vw;
+    margin: 5% auto 40% auto;
+  }
+}
+
+.supply-chain-text {
+  padding: 3% 10%;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.supply-chain__image {
+  width: 100%;
+}
+@media (min-width: 1280px) {
+  .supply-chain__image {
+    width: 40%;
+    margin: 0 25%;
+  }
+}/*# sourceMappingURL=supply_chain.css.map */
