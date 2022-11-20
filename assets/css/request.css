@@ -1,5 +1,68 @@
+.navbar {
+  height: 10%;
+}
+@media (max-width: 375px) {
+  .navbar {
+    height: 10%;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .logo__image, .logo__text {
+    width: 20px;
+  }
+}
+@media (min-width: 375px) and (max-width: 1280px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navbar {
+    height: 6%;
+  }
+  .nav-menu {
+    margin-top: 5%;
+  }
+}
+
+.nav-menu {
+  padding-top: 4%;
+}
+
 .figure {
   position: relative;
+}
+
+@media (max-width: 375px) {
+  .figure {
+    padding-bottom: 20px;}
+  }
+
+@media (max-width: 768px) {
+  .figure h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .figure p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .figure h1 {
+    font-size: 13px;
+    line-height: 13px;}
+  .figure p {
+    font-size: 11px;
+    line-height: 12px;}
 }
 
 .figure-caption {
@@ -7,6 +70,27 @@
   left: 30px;
   bottom: 40%;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .figure-caption {
+    width: 80%;
+    height: 7vh;
+    margin-right: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .figure-caption h1 {
+    padding: 3%;
+    font-size: 36px;
+    line-height: 26px;
+  }
+
+  .figure-caption p {
+    width: 90vw;
+    font-size: 21px;
+    line-height: 21px;
+  }
 }
 
 .figure-img {
