@@ -19,7 +19,7 @@ $large-desktop: 1560px;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
   padding-bottom: 10%;
-  background: linear-gradient(135deg, $green, #4a7c46);
+  background: linear-gradient(135deg, $green, #54a04f);
 
   @media (min-width: $tablet) {
     grid-template-columns: repeat(4, 1fr);
