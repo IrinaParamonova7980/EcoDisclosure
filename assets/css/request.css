@@ -1,12 +1,57 @@
 .figure {
   position: relative;
 }
+@media (max-width: 375px) {
+  .figure {
+    padding-bottom: 20px;}
+  }
+
+@media (max-width: 768px) {
+  .figure h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .figure p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .figure h1 {
+    font-size: 13px;
+    line-height: 13px;}
+  .figure p {
+    font-size: 11px;
+    line-height: 12px;}
+}
 
 .figure-caption {
   position: absolute;
   left: 30px;
   bottom: 40%;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .figure-caption {
+    width: 80%;
+    height: 7vh;
+    margin-right: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .figure-caption h1 {
+    padding: 3%;
+    font-size: 36px;
+    line-height: 26px;
+  }
+
+  .figure-caption p {
+    width: 90vw;
+    font-size: 21px;
+    line-height: 21px;
+  }
 }
 
 .figure-img {
