@@ -48,6 +48,12 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .visualization-item-container_first {
+    height: 60vh;
+  }
+}
+
 .visualization-item-1 {
   width: 100%;
   box-sizing: border-box;

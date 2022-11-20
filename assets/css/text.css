@@ -3,14 +3,14 @@
   font-family: "Roboto", "Times New Roman", serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 24px;
 }
 @media (min-width: 768px) and (max-width: 1280px) {
   .h1,
 .h2 {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 30px;
   }
 }
 @media (min-width: 1280px) {
@@ -25,13 +25,13 @@
   font-family: "Roboto", "Times New Roman", serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
 }
 @media (min-width: 768px) and (max-width: 1280px) {
   .h3 {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
   }
 }
 @media (min-width: 1280px) {
@@ -50,17 +50,7 @@
 }
 
 .main-title {
-  font-family: "Roboto", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 46px;
   color: #214e41;
-}
-@media (min-width: 768px) {
-  .main-title {
-    font-size: 36px;
-  }
 }
 
 .main-title_white {
@@ -68,11 +58,6 @@
 }
 
 .main-text {
-  font-family: "Raleway", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
   letter-spacing: 0.02px;
   color: #757575;
 }

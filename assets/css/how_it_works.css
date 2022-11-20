@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
   padding-bottom: 10%;
-  background-color: #497557;
+  background: linear-gradient(135deg, #0c4a34, #54a04f);
 }
 @media (min-width: 768px) {
   .how-it-works {

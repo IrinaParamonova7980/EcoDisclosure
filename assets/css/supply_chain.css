@@ -1,0 +1,39 @@
+.supply-chain-header {
+  background-image: url(../images/trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5%;
+}
+
+.supply-chain-header__title {
+  max-width: 90vw;
+  margin: 5% auto 50% auto;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #0c4a34;
+}
+@media (min-width: 1280px) {
+  .supply-chain-header__title {
+    max-width: 50vw;
+    margin: 1% auto 30% auto;
+  }
+}
+
+.supply-chain-text {
+  padding: 3% 10%;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.supply-chain__image {
+  width: 100%;
+}
+@media (min-width: 1280px) {
+  .supply-chain__image {
+    width: 40%;
+    margin: 0 25%;
+  }
+}/*# sourceMappingURL=supply_chain.css.map */
