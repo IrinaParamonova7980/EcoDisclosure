@@ -1,28 +1,35 @@
-$second-font: "Raleway", "Times New Roman", serif;
-
-$text-color-dark: #214e41;
-
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1280px;
+@import "_variables.scss";
 
 .header {
   background-image: url(../images/header2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 30px;
+  padding: 30px 30px 0 30px;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    padding: 30px;
+  }
+
+  @media (min-width: $tablet) {
+    padding: 30px;
+  }
 }
 
 .header-title {
   max-width: 50vw;
-  padding: 3% 0 1% 2%;
-  margin: 0;
+  margin: 3% auto 3% 10%;
+
   color: $text-color-dark;
 
-  @media (min-width: $tablet) {
-    max-width: 50vw;
+  @media (min-width: $tablet) and (max-width: $desktop) and (orientation: landscape) {
     padding: 12% 0 2% 8%;
+    margin: 0;
+  }
+
+  @media (min-width: $tablet) {
+    padding: 12% 0 2% 8%;
+    margin: 0;
   }
 }
 
@@ -47,5 +54,29 @@ $desktop: 1280px;
 
   @media (min-width: $tablet) {
     padding: 3% 0 15% 8%;
+  }
+}
+
+.form__input-field {
+  margin: 0 auto 2% 3%;
+
+  @media (min-width: $tablet) and (max-width: $desktop) and (orientation: landscape) {
+    margin: 0;
+  }
+
+  @media (min-width: $tablet) {
+    margin: 0;
+  }
+}
+
+.form__button {
+  margin: 0 auto 2% 3%;
+
+  @media (min-width: $tablet) and (max-width: $desktop) and (orientation: landscape) {
+    margin: 0;
+  }
+
+  @media (min-width: $tablet) {
+    margin: 0;
   }
 }

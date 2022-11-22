@@ -16,60 +16,69 @@ $large-desktop: 1560px;
 /* Request Form */
 .form {
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    flex-direction: row;
+  }
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+  }
 }
 
 /* Input field */
 .input-field {
-  width: 25vw;
-  padding: 7px;
+  width: auto;
+  padding: 13px;
   background: $white;
-  border-radius: 6px 0px 0px 6px;
   border: $white;
+  border-radius: 6px;
 
   font-family: $second-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 5px;
-  line-height: 7px;
+  font-size: 14px;
+  line-height: 20px;
   color: #222222;
 
   @media (min-width: $tablet) and (max-width: $desktop) {
-    padding: 10px;
-    font-size: 10px;
-    line-height: 15px;
+    border-radius: 6px 0px 0px 6px;
   }
+
   @media (min-width: $desktop) {
     width: 280px;
     padding: 20px;
     font-size: 14px;
     line-height: 20px;
+    border-radius: 6px 0px 0px 6px;
   }
 }
 
 /* Input Field button */
 .button {
   width: auto;
-  padding: 7px;
+  padding: 13px;
   background: $light-green;
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 6px;
   border: $light-green;
 
   font-family: $second-font;
   font-style: normal;
   font-weight: 700;
-  font-size: 5px;
-  line-height: 7px;
+  font-size: 13px;
+  line-height: 20px;
   color: $white;
 
   @media (min-width: $tablet) and (max-width: $desktop) {
-    padding: 10px;
-    font-size: 10px;
-    line-height: 15px;
+    border-radius: 0px 6px 6px 0px;
   }
+
   @media (min-width: $desktop) {
     padding: 20px;
     font-size: 13px;
     line-height: 20px;
+    border-radius: 0px 6px 6px 0px;
   }
 }
 
