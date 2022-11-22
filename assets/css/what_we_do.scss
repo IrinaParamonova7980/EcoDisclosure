@@ -17,23 +17,23 @@ $large-desktop: 1560px;
   width: 100%;
   height: 20em;
 
-  background-image: url(/assets/images/esg_green_mobile.jpg);
+  background-image: url(../images/esg_green_mobile.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
 
   @media (min-width: $tablet) {
-    background-image: url(/assets/images/esg_green.jpg);
+    background-image: url(../images/esg_green.png);
   }
 
   @media (min-width: $desktop) {
-    background-image: url(/assets/images/esg_green.jpg);
+    background-image: url(../images/esg_green.png);
     justify-content: flex-start;
     height: 45em;
     background-position: top;
   }
   @media (min-width: $large-desktop) {
-    background-image: url(/assets/images/esg_green.jpg);
+    background-image: url(../images/esg_green.png);
     justify-content: flex-start;
     height: 55em;
     background-position: top;
