@@ -1,10 +1,4 @@
-$second-font: "Raleway", "Times New Roman", serif;
-
-$text-color-dark: #214e41;
-
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1280px;
+@import "_variables.scss";
 
 .header {
   background-image: url(../images/header2.jpg);
