@@ -1,14 +1,4 @@
-$default-font: "Roboto", "Times New Roman", serif;
-$second-font: "Raleway", "Times New Roman", serif;
-
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1280px;
-$large-desktop: 1560px;
-
-$green: #214e41;
-$gray: #757575;
-$text-color-dark: #214e41;
+@import "_variables.scss";
 
 .benefits__title,
 .benefits__card-title,
