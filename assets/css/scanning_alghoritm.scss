@@ -1,9 +1,4 @@
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1280px;
-$large-desktop: 1560px;
-
-$text-color-dark: #214e41;
+@import "_variables.scss";
 
 .scanning-algorithm {
   display: flex;

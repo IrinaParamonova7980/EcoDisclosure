@@ -1,28 +1,11 @@
-$default-font: "Roboto", "Times New Roman", serif;
-$second-font: "Raleway", "Times New Roman", serif;
-
-$light-green: #497557;
-$green: #0c4a34;
-$dark-green: #02291c;
-$text-color-dark: #214e41;
-$text-color-light: #43806c;
-$white: #ffffff;
-
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1280px;
-$large-desktop: 1560px;
+@import "_variables.scss";
 
 /* Request Form */
 .form {
   display: flex;
   flex-direction: column;
 
-  @media (min-width: $tablet) and (max-width: $desktop) {
-    flex-direction: row;
-  }
-
-  @media (min-width: $desktop) {
+  @media (min-width: $tablet) and (orientation: landscape) {
     flex-direction: row;
   }
 }
